@@ -33,14 +33,14 @@ export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
   const [scrollIndicatorHidden, setScrollIndicatorHidden] = useState(false);
   const intro = useRef(null);
+  const details = useRef(null);
   const projectThree = useRef(null);
   const projectOne = useRef(null);
   const projectTwo = useRef(null);
   const projectFour = useRef(null);
-  const details = useRef(null);
   
   useEffect(() => {
-    const sections = [intro, projectOne, projectTwo,projectThree, projectFour, details];
+    const sections = [intro, details, projectOne, projectTwo,projectThree, projectFour];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -87,6 +87,11 @@ export const Home = () => {
         sectionRef={intro}
         disciplines={disciplines}
         scrollIndicatorHidden={scrollIndicatorHidden}
+      />
+      <Profile
+        sectionRef={details}
+        visible={visibleSections.includes(details.current)}
+        id="details"
       />
       <ProjectSummary
         id="project-1"
@@ -181,11 +186,6 @@ export const Home = () => {
             },
           ],
         }}
-      />
-      <Profile
-        sectionRef={details}
-        visible={visibleSections.includes(details.current)}
-        id="details"
       />
       <Footer />
     </div>

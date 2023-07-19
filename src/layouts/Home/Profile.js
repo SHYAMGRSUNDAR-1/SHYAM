@@ -58,7 +58,6 @@ export const Profile = ({ id, visible, sectionRef }) => {
               </div>
               <ProfileText visible={visible} titleId={titleId} />
             </div>
-
           </div>
         )}
       </Transition>
