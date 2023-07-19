@@ -40,11 +40,11 @@
   top: calc(var(--spaceL) * -1);
 
   @media (--mediaDesktop) {
-    max-width: 920px;
+    max-width: 720px;
   }
 
   @media (--mediaLaptop) {
-    max-width: 780px;
+    max-width: 620px;
   }
 
   @media (--mediaMobile) {
