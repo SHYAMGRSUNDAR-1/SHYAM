@@ -89,8 +89,8 @@ export const Home = () => {
       />
       <ProjectSummary
         id="project-1"
-        sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
+        sectionRef={projectone}
+        visible={visibleSections.includes(projectone.current)}
         index={1}
         title="Desktop Checkout-Redefined"
         description="Designed to optimized user experience for desktop users while maintaining a seamless and consistent checkout process across multiple devices."
