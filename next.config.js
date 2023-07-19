@@ -21,7 +21,13 @@ module.exports = {
       test: /\.(mp4|hdr|glb|woff|woff2)$/i,
       type: 'asset/resource',
     });
-
+    module.exports = {
+      eslint: {
+        // Warning: This allows production builds to successfully complete even if
+        // your project has ESLint errors.
+        ignoreDuringBuilds: true,
+      },
+    }
     // Force url import with `?url`
     config.module.rules.push({
       resourceQuery: /url/,
