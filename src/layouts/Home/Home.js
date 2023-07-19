@@ -32,14 +32,15 @@ const disciplines = ['Product Designer', 'Prototyper', 'Video Editor'];
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
   const [scrollIndicatorHidden, setScrollIndicatorHidden] = useState(false);
-  const intro = useRef();
-  const projectOne = useRef();
-  const projectTwo = useRef();
-  const projectThree = useRef();
-  const details = useRef();
-
+  const intro = useRef(null);
+  const projectThree = useRef(null);
+  const projectOne = useRef(null);
+  const projectTwo = useRef(null);
+  const projectFour = useRef(null);
+  const details = useRef(null);
+  
   useEffect(() => {
-    const sections = [intro, projectOne, projectTwo, projectThree, details];
+    const sections = [intro, projectOne, projectTwo,projectThree, projectFour, details];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -89,8 +90,8 @@ export const Home = () => {
       />
       <ProjectSummary
         id="project-1"
-        sectionRef={projectone}
-        visible={visibleSections.includes(projectone.current)}
+        sectionRef={projectOne}
+        visible={visibleSections.includes(projectOne.current)}
         index={1}
         title="Desktop Checkout-Redefined"
         description="Designed to optimized user experience for desktop users while maintaining a seamless and consistent checkout process across multiple devices."
@@ -134,8 +135,8 @@ export const Home = () => {
       />
       <ProjectSummary
         id="project-3"
-        sectionRef={projectOne}
-        visible={visibleSections.includes(projectOne.current)}
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectThree.current)}
         index={3}
         title="Stryd - A Car pooling App"
         description="The carpooling app that connects commuters for convenient and eco-friendly ridesharing"
@@ -159,10 +160,10 @@ export const Home = () => {
             <ProjectSummary
        id="project-4"
         alternate
-        sectionRef={projectTwo}
-        visible={visibleSections.includes(projectTwo.current)}
+        sectionRef={projectFour}
+        visible={visibleSections.includes(projectFour.current)}
         index={4}
-        title="Flink - A Payment App"
+        title="Flink- A payment App"
         description="Streamline payments with our intuitive app for easy payment form and link creation."
         buttonText="Under Progress"
         buttonLink="https://www.figma.com/proto/QYD3aBcxlPd2IIEuMuZenR/Payment-App?page-id=0%3A1&type=design&node-id=141-7893&viewport=-1380%2C-4689%2C0.47&t=WVhArR4R4vcEOo08-8&scaling=scale-down-width&hotspot-hints=0&hide-ui=1"

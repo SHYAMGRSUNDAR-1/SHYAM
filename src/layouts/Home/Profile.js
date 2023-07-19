@@ -18,13 +18,10 @@ import styles from './Profile.module.css';
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
-      <DecoderText text="Hi there" start={visible} delay={500} />
+      <DecoderText text="Hi there✌️" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Shyam, currently I live in Banglore working as a product designer at{' '}
-      <Link href="https://www.juspay.in">Juspay Technologies</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. 
+    I'm Shyam, an enthusiastic UI/UX designer at <Link href="https://www.juspay.in">Juspay Technologies</Link>. In the dynamic payments and D2C realm, I'm leading the design of game-changing projects like <Link href="https://www.breeze.in">Breeze - A D2C Checkout</Link> from scratch, collaborating directly with the founder. Additionally, I spearheaded the complete design of the groundbreaking Payment-link and Payment-form projects and many more,  revolutionizing digital payments. Eager to stay ahead in the ever-evolving design landscape. Let's connect and embark on an exciting design journey together! 🚀
     </Text>
   </Fragment>
 );
@@ -60,29 +57,8 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 </div>
               </div>
               <ProfileText visible={visible} titleId={titleId} />
-              <Button
-                secondary
-                className={styles.button}
-                data-visible={visible}
-                href="/contact"
-                icon="send"
-              >
-                Send me a message
-              </Button>
             </div>
-            <div className={styles.column}>
-             
-              <div className={styles.image}>
-                <Image
-                  reveal
-                  delay={100}
-                  placeholder={profileImgPlaceholder}
-                  srcSet={[profileImg, profileImgLarge]}
-                  sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
-                  alt="Me standing in front of the Torii on Miyajima, an island off the coast of Hiroshima in Japan"
-                />
-              </div>
-            </div>
+
           </div>
         )}
       </Transition>
