@@ -78,7 +78,7 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Product"
+        title="UI/UX Designer"
         description="Design portfolio of shyam sundar — a product designer working on web & mobile
           apps with a focus on motion, experience design, and accessibility."
       />
