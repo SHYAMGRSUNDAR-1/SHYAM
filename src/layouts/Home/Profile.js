@@ -21,7 +21,7 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there✌️" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-    I'm Shyam, an enthusiastic UI/UX designer at <Link href="https://www.juspay.in">Juspay Technologies</Link>. In the dynamic payments and D2C realm, I'm leading the design of game-changing projects like <Link href="https://www.breeze.in">Breeze - A D2C Checkout</Link> from scratch, collaborating directly with the founder. Additionally, I spearheaded the complete design of the groundbreaking Payment-link and Payment-form projects and many more,  revolutionizing digital payments. Eager to stay ahead in the ever-evolving design landscape. Let's connect and embark on an exciting design journey together! 🚀   - <Link href="https://drive.google.com/file/d/1fNytNbhXkw38Vls0_ssm40YlqzDyqnXC/view?usp=sharing">My Resume</Link>
+    Hello! I'm Shyam Sundar, a passionate UI/UX designer  <Link href="https://www.juspay.in">Juspay Technologies</Link> with a focus on creating exceptional digital experiences in the fintech and e-commerce domains.My love for design fuels my desire to create experiences that users will truly love at ❤️. <Link href="https://drive.google.com/file/d/1fNytNbhXkw38Vls0_ssm40YlqzDyqnXC/view?usp=sharing"> My Resume </Link>
     </Text>
   </Fragment>
 );
