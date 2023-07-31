@@ -78,7 +78,7 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="UI/UX Designer"
+        title="UI/UX"
         description="Design portfolio of shyam sundar — a product designer working on web & mobile
           apps with a focus on motion, experience design, and accessibility."
       />
@@ -93,22 +93,26 @@ export const Home = () => {
         visible={visibleSections.includes(details.current)}
         id="details"
       />
-      <ProjectSummary
+            <ProjectSummary
         id="project-1"
-        sectionRef={projectOne}
-        visible={visibleSections.includes(projectOne.current)}
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectThree.current)}
         index={1}
-        title="Desktop Checkout-Redefined"
-        description="Designed to optimized user experience for desktop users while maintaining a seamless and consistent checkout process across multiple devices."
+        title="Stryd - A Car pooling App"
+        description="The carpooling app that connects commuters for convenient and eco-friendly ridesharing"
         buttonText="View project"
-        buttonLink="https://www.figma.com/proto/i1KvE1qacQPid0ffyqY9AH/Stryde-%26Vivahika?page-id=0%3A1&type=design&node-id=101-69338&viewport=-3426%2C1980%2C0.1&t=GU0Qag2kraK1bxqP-8&scaling=scale-down-width&starting-point-node-id=101%3A439&hotspot-hints=0&hide-ui=1"
+        buttonLink="https://www.figma.com/proto/M0qXl0s5wokzHeCiiwgoD7/Stryde?page-id=1%3A2824&type=design&node-id=179-6470&viewport=3569%2C1569%2C0.03&t=HoUldDJcsypdGive-8&scaling=scale-down-width&hotspot-hints=0&hide-ui=1"
         model={{
-          type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          type: 'phone',
+          alt: 'App login screen',
           textures: [
             {
-              srcSet: [sliceTexture, sliceTextureLarge],
-              placeholder: sliceTexturePlaceholder,
+              srcSet: [gamestackTexture4, gamestackTexture4Large],
+              placeholder: gamestackTexture4Placeholder,
+            },
+            {
+              srcSet: [gamestackTexture3, gamestackTexture3Large],
+              placeholder: gamestackTexture3Placeholder,
             },
           ],
         }}
@@ -140,24 +144,20 @@ export const Home = () => {
       />
       <ProjectSummary
         id="project-3"
-        sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
+        sectionRef={projectOne}
+        visible={visibleSections.includes(projectOne.current)}
         index={3}
-        title="Stryd - A Car pooling App"
-        description="The carpooling app that connects commuters for convenient and eco-friendly ridesharing"
+        title="Desktop Checkout-Redefined"
+        description="Designed to optimized user experience for desktop users while maintaining a seamless and consistent checkout process across multiple devices."
         buttonText="View project"
-        buttonLink="https://www.figma.com/proto/M0qXl0s5wokzHeCiiwgoD7/Stryde?page-id=1%3A2824&type=design&node-id=3-8442&viewport=7869%2C2544%2C0.08&t=ednMkZvrRDPOxoYz-8&scaling=scale-down-width&hotspot-hints=0&hide-ui=1"
+        buttonLink="https://www.figma.com/proto/i1KvE1qacQPid0ffyqY9AH/Stryde-%26Vivahika?page-id=0%3A1&type=design&node-id=101-69338&viewport=-3426%2C1980%2C0.1&t=GU0Qag2kraK1bxqP-8&scaling=scale-down-width&starting-point-node-id=101%3A439&hotspot-hints=0&hide-ui=1"
         model={{
-          type: 'phone',
-          alt: 'App login screen',
+          type: 'laptop',
+          alt: 'Annotating a biomedical image in the Slice app',
           textures: [
             {
-              srcSet: [gamestackTexture4, gamestackTexture4Large],
-              placeholder: gamestackTexture4Placeholder,
-            },
-            {
-              srcSet: [gamestackTexture3, gamestackTexture3Large],
-              placeholder: gamestackTexture3Placeholder,
+              srcSet: [sliceTexture, sliceTextureLarge],
+              placeholder: sliceTexturePlaceholder,
             },
           ],
         }}
