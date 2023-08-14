@@ -133,7 +133,7 @@ export const Home = () => {
         title="CashKira App"
         description="CashKira combines bookkeeping and secure payments to simplify finances for MSMEs in SEA, boosting cash flow and business growth."
         buttonText="View project"
-        buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiUmc1Rm5mMnQ4TlRHVVdQbXFpMkt5bWw0ZVNIczBzckVzSzhpWGV4VzZPb0RJYXRBd3l2bWU3Tjg3ZmluUzFjSHpHbDhMdFpUTzdqMUd2OXJxVmpmcHBMU0xQTFZ0WkJkRHBQcC9aU2JhbFpmWElIc25Hd2ROclZ4NXVmRGV3MHlXRjdHUk9adlljTHlpNVVwNnlqRTQ0a0h2Nk14YlRMeG00NStQZExURWNuakRtOUtCTmpmQW5RMXNrSGhhVWE0TlhBNllEZ0lrYm5aVC9uN29DMGVKc0g5V213eUtENitlbEFEME8xMmsxbzRGcVkwbU5VMGVMWDNHaCtPTUQwK1ZlcHJROVFWRUVMQTdJcXJDam4ybGwwWTJ2RTF1cXo4bC9IN0kzT2M4clVvK1RIZlBjZkl6TWhLKzBHU3NSRUpDZ1drUVR5WFY2SjlYOUJVWWJRPSIsImgiOiJDb250YWN0IE1lIiwicyI6Im0xUDlkVWtzRTdqWHZwUzhxTEFPamc9PSIsImkiOiJwQkEzQTlydzYwVVdvVUs1In0="
+        buttonLink="https://www.figma.com/proto/R1sIoE1A3nhuXI2Z2xRQaj/CashKira?page-id=4%3A6331&type=design&node-id=202-58152&viewport=510%2C834%2C0.1&t=zwvDq1YOdwlWqW7G-8&scaling=scale-down-width&starting-point-node-id=202%3A58152&hotspot-hints=0&hide-ui=1"
         model={{
           type: 'phone',
           alt: 'App login screen',
