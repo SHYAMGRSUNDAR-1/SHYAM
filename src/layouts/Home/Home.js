@@ -158,7 +158,7 @@ export const Home = () => {
         title="A D2C Super App"
         description="Your all-in-one solution for seamless shopping, real-time order tracking, and personalized experiences with curated D2C brands."
         buttonText="View project"
-        buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoib1N6ZzV2aTVReTdub29IZlZtd3JZUDgvQS9yUEZtdHUxMGRGeUkyVysxUC9GZ3NHL2M1SnhtSHVHaHd4RnkyYXZKYnpyakFRTXBxSmdkbVY4WVNCVy9CSENQTGdTWFVia0JvZldDbDJEMks0TVZsdDMvTzVIdjcvNXRFZ3Urcnc1NjR2cDc2WkJBMENnSFZxVDFYOU1oRis5ajlGQ05sajBqZkd3eUlGWWVDM1hoN1AxSWxobG1JbWUzS3gxdmVxYVBiUjQvZFZnV2Q5RXFVRnpqWnhkU3lRMkJiUDc4TDFWVEs3KytvTmxUTDFnemJqQ3JUdS9ML0ZMOTdhUEZuVVVxTitlYXM3ekFVZEhuS2U5Y2l2L1dPRUZFK1FPYkhtSkxkL3owcUJmRDdnOHJHc0ZRR2ZvVGlEVXozeTlBNlJ2d0IycEI2ZERZNkJ3ci9XYXZBK1pwdz0iLCJoIjoiQ29udGFjdCBtZSIsInMiOiJzZnQ3WG9FMHZQNXdkbGFzNlRwbEV3PT0iLCJpIjoiaG01dmNqVFJyb3pYcnB3aSJ9"
+        buttonLink="figma.com/proto/PDCB5XTOe37j02XaTZwqg9/D2C-APP?page-id=101%3A16129&type=design&node-id=105-25204&viewport=368%2C2376%2C0.12&t=FvgTO4hgD7n7RkkT-8&scaling=scale-down-width&starting-point-node-id=105%3A7069&hotspot-hints=0&hide-ui=1"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -182,7 +182,7 @@ export const Home = () => {
         title="Desktop Checkout-Redefined"
         description="Designed to optimized user experience for desktop users while maintaining a seamless and consistent checkout process across multiple devices."
         buttonText="View project"
-        buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiV2htTG01aUo5U3I0aFZZUHdOSGRVZHVJUUY1L3ZiMnltK2V6enROSmlha283SldVZmh3K0lLZDZ1N2xNM1dQYmZ0RFNRaFdqTEVTK1Z1bXFCSGkvb2pKTk5mSVlrbnNsUitiT3RPYTlwV2hSUVUyZ3QxQjh1QWM4Z1VUWkllV2gvODVlTFBEM3BOSVVteTNvekdSZ1NYSEp6Wmx6UzY3SnhLKzVZTEhodW5LUFE5RlBRN0hsbDkwT1kvSG8yMURkYnFramtDN29IcVcwWSt1MzNUQjZhMThFVXhtWlBPQ1BpZEtuWWwyZ3lNdkJGUzBWZTBRcDNIQzN6bjdUWmNmK0Y3MlZ3SU1FbkhFMWl0QlRqNHlLMTVDT1hDb1g0dVc3UFN2SVpkVTQvaHRQbW04YVpRMk9Ra2svTnpUM0NtOEliM2EvbGVMVU10akNnc2gxRm5TT28yYjIvaUE9IiwiaCI6IkNvbnRhY3QgbWUiLCJzIjoiNklCTithZWNybUtTWFdDR3JoUFFKZz09IiwiaSI6IkJzclpobzVxTElrcmpPSG4ifQ=="
+        buttonLink="https://www.figma.com/proto/i1KvE1qacQPid0ffyqY9AH/Desktop-Checkout?page-id=0%3A1&type=design&node-id=101-69338&viewport=-3426%2C1980%2C0.1&t=GU0Qag2kraK1bxqP-8&scaling=scale-down-width&starting-point-node-id=101%3A439&hotspot-hints=0&hide-ui=1"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
