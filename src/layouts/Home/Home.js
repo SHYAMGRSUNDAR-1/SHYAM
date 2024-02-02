@@ -158,7 +158,7 @@ export const Home = () => {
         title="A D2C Super App"
         description="Your all-in-one solution for seamless shopping, real-time order tracking, and personalized experiences with curated D2C brands."
         buttonText="View project"
-        buttonLink="figma.com/proto/PDCB5XTOe37j02XaTZwqg9/D2C-APP?page-id=101%3A16129&type=design&node-id=105-25204&viewport=368%2C2376%2C0.12&t=FvgTO4hgD7n7RkkT-8&scaling=scale-down-width&starting-point-node-id=105%3A7069&hotspot-hints=0&hide-ui=1"
+        buttonLink="https://www.figma.com/proto/PDCB5XTOe37j02XaTZwqg9/D2C-APP?page-id=101%3A16129&type=design&node-id=105-25204&viewport=178%2C1106%2C0.05&t=OpNJnQ3YJMri7QZZ-8&scaling=scale-down-width&hotspot-hints=0&hide-ui=1"
         model={{
           type: 'phone',
           alt: 'App login screen',
