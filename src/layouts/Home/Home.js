@@ -187,7 +187,7 @@ export const Home = () => {
         alternate
         sectionRef={projectFive}
         visible={visibleSections.includes(projectFive.current)}
-        index={3}
+        index={4}
         title="A D2C Super App"
         description="[Company: Juspay] - Your all-in-one solution for seamless shopping, real-time order tracking, and personalized experiences with curated D2C brands."
         buttonText="View project"
@@ -236,7 +236,7 @@ export const Home = () => {
         title="Simpl BillBox"
         description=" [Company: Simpl] - Revamped the Bill box feature of Simpl app completely from scratch (Case stusy uder progree meanwhile enjoy the prototype). "
         buttonText="Under Progress"
-        buttonLink="https://www.figma.com/proto/NR8YLzVBPSmMUEaEmDbqnX/Bill-Box?page-id=519%3A40277&node-id=808-62924&viewport=1298%2C-806%2C0.09&t=LM9Y4M7xY24ezAvz-8&scaling=contain&starting-point-node-id=808%3A62924&show-proto-sidebar=1&content-scaling=fixed&hide-ui=1"
+        buttonLink="https://www.figma.com/proto/R1sIoE1A3nhuXI2Z2xRQaj/Casestudy?page-id=0%3A1&node-id=1065-63284&viewport=665%2C-5663%2C0.06&t=sUl28hspgaaA4RF9-8&scaling=min-zoom&starting-point-node-id=1065%3A63284&hide-ui=1"
         model={{
           type: 'phone',
           alt: 'App login screen',
