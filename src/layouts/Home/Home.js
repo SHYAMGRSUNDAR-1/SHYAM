@@ -114,7 +114,7 @@ export const Home = () => {
         title="Simpl Pay later"
         description=" [Company: Simpl] - A Strategy to boost shares of Simpl Checkout’s  biggest product differentiators Pay later and Pay in 3. "
         buttonText="View Project"
-        buttonLink="https://www.figma.com/proto/R1sIoE1A3nhuXI2Z2xRQaj/Casestudy?page-id=17%3A11793&node-id=1058-33197&viewport=4675%2C-12214%2C0.12&t=kN4IZDRHZoGD2tGl-1&scaling=scale-down-width&starting-point-node-id=1058%3A33197&content-scaling=fixed"
+        buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiWmNyRFFwMDg0N05NSjBVd3B2cThRbXZvbDAxekhRcXhQTld5TGpmS1FVaHZTa0dBWis2ZXlSZ0VJaWlleGJlQnovRTB5b2JtdTJ2NFRGcWlucnlZa293b1dHUitTTmZ5MmI1cTc1bVpmcmhjWklaalJ4RzhhSUJHaTZQbGNIRHA3REpVRlVMQnlFSEZXcVBUUHQyS09mZ2RhR0FwWU5vYWsyTFNDOHR0S1lxNE1uWStNQUtpdFJ4SVlXa3N1ZktRZXkxVnR4NzYvT0dNbmlmaDduTi9iRnRRUkxrS212UndWTVFraFgvaGliWjJpcW1ZZ2w5d2pXN1JDNFowK2lqcmFYMDQwd2lGZjRhakl3QUV6R2J1YjZCVzJsVkY1aDQ2WDdncVVzT3dab1pyME9FV0pqZ0U5c0E3V01oMFVZOXhPWHl6emFubm01dz0iLCJoIjoiUGFzc3dvcmQgTWVudGlvbmVkIGluIG15IFJlc3VtZSIsInMiOiJNYmMvZjlDYlBMWldvUjVSM1N4ajlnPT0iLCJpIjoia05wS2tKWThKOSt6SkZNUSJ9"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -234,9 +234,9 @@ export const Home = () => {
         visible={visibleSections.includes(projectFour.current)}
         index={6}
         title="Simpl BillBox"
-        description=" [Company: Simpl] - Revamped the Bill box feature of Simpl app completely from scratch (Case stusy uder progree meanwhile enjoy the prototype). "
+        description=" [Company: Simpl] - Case stusy under progress meanwhile enjoy the prototype. "
         buttonText="Under Progress"
-        buttonLink="https://www.figma.com/proto/R1sIoE1A3nhuXI2Z2xRQaj/Casestudy?page-id=0%3A1&node-id=1065-63284&viewport=665%2C-5663%2C0.06&t=sUl28hspgaaA4RF9-8&scaling=min-zoom&starting-point-node-id=1065%3A63284&hide-ui=1"
+        buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiT05xQjFWWjdDeENDTXR6RU5sNTQ5bjRvSzNhUGZ6MG8vNEpkY1JzU0o3aWVKSnRwR2ZFRGpEWHVOdlhDbkovVDNkTnRVbFFRSVRuZkQ3elMvdUtKYWNnYTY2N0Iza0s1SzFPeElSdExsSXZmd1U1R1ZReVprbUI3UGtyQ2RkcUpmbVlBbjhzN1ZsTllPSTg5V3g2OTVhcFRwVWxuc2VTeTJpR05mckRiUjlIeUxhUEUzUDNoVGNBV2kzT0NIbUY3dC9SN0o2NW4xZVJyM1RydXRJdk1tcGVJYTZYWkhUSlA5SDhtWVcxNkFYSjRBZDZCcVhUYzYzRUVoZHBGMGRsTjFta0YyQ0JrNThhZnpnbmxUaHViQWpOL3V6Vk5aeEZkQ3FkUVZXaz0iLCJoIjoiUGFzc3dvcmQgTWVudGlvbmVkIGluIG15IFJlc3VtZSIsInMiOiJkOFlWQVp3bUs5RDd0N08vV1BlbFp3PT0iLCJpIjoibkVLbEdyVWZackVsV2kxMiJ9"
         model={{
           type: 'phone',
           alt: 'App login screen',
