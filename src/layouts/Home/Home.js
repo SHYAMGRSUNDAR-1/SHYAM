@@ -114,7 +114,7 @@ export const Home = () => {
         title="Simpl Pay later"
         description=" [Company: Simpl] - A Strategy to boost shares of Simpl Checkout’s  biggest product differentiators Pay later and Pay in 3. "
         buttonText="View Project"
-        buttonLink="https://www.figma.com/proto/KrDdwp0a9X5NjucZkxXkyC/Simpl-Paylater?page-id=0%3A1&node-id=1-10809&viewport=4622%2C252%2C0.18&t=UUVfaTSgFBtoVduT-8&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A10809&hide-ui=1"
+        buttonLink="https://www.figma.com/proto/R1sIoE1A3nhuXI2Z2xRQaj/Casestudy?page-id=17%3A11793&node-id=1058-33197&viewport=4675%2C-12214%2C0.12&t=kN4IZDRHZoGD2tGl-1&scaling=scale-down-width&starting-point-node-id=1058%3A33197&content-scaling=fixed"
         model={{
           type: 'phone',
           alt: 'App login screen',
