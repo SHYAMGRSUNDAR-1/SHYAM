@@ -22,6 +22,12 @@ import gamestackTexture7 from 'assets/CKSS.png';
 import gamestackTexture8Large from 'assets/CKHS.png';
 import gamestackTexture8Placeholder from 'assets/CKHS.png';
 import gamestackTexture8 from 'assets/CKHS.png';
+import gamestackTexture9Large from 'assets/Billbox1.png';
+import gamestackTexture9Placeholder from 'assets/Billbox1.png';
+import gamestackTexture9 from 'assets/Billbox1.png';
+import gamestackTexture10Large from 'assets/Billbox.png';
+import gamestackTexture10Placeholder from 'assets/Billbox.png';
+import gamestackTexture10 from 'assets/Billbox.png';
 import sliceTextureLarge from 'assets/spr-background.jpg';
 import sliceTexturePlaceholder from 'assets/spr-background.jpg';
 import sliceTexture from 'assets/spr-background.jpg';
@@ -100,14 +106,63 @@ export const Home = () => {
         visible={visibleSections.includes(details.current)}
         id="details"
       />
-      <ProjectSummary
-       id="project-1"
-        alternate
-        sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
+       <ProjectSummary
+        id="project-1"
+        sectionRef={projectOne}
+        visible={visibleSections.includes(projectTwo.current)}
         index={1}
+        title="Simpl Pay later"
+        description=" [Company: Simpl] - A Strategy to boost shares of Simpl Checkout’s  biggest product differentiators Pay later and Pay in 3. "
+        buttonText="View Project"
+        buttonLink="https://www.figma.com/proto/KrDdwp0a9X5NjucZkxXkyC/Simpl-Paylater?page-id=0%3A1&node-id=1-10809&viewport=4622%2C252%2C0.18&t=UUVfaTSgFBtoVduT-8&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A10809&hide-ui=1"
+        model={{
+          type: 'phone',
+          alt: 'App login screen',
+          textures: [
+            {
+              srcSet: [gamestackTexture6, gamestackTexture6Large],
+              placeholder: gamestackTexture6Placeholder,
+            },
+            {
+              srcSet: [gamestackTexture5, gamestackTexture5Large],
+              placeholder: gamestackTexture5Placeholder,
+            },
+          ],
+        }}
+      />
+         <ProjectSummary
+        id="project-2"
+        alternate
+        sectionRef={projectTwo}
+        visible={visibleSections.includes(projectThree.current)}
+        index={2}
+        title="CashKira App"
+        description="[Company: WhyQ (Freelanced) ] - CashKira combines bookkeeping and secure payments to simplify finances for MSMEs in SEA, boosting cash flow and business growth."
+        buttonText="View project"
+        buttonLink="https://www.figma.com/proto/R1sIoE1A3nhuXI2Z2xRQaj/CashKira?page-id=4%3A6331&type=design&node-id=202-58152&viewport=510%2C834%2C0.1&t=zwvDq1YOdwlWqW7G-8&scaling=scale-down-width&starting-point-node-id=202%3A58152&hotspot-hints=0&hide-ui=1"
+        model={{
+          type: 'phone',
+          alt: 'App login screen',
+          textures: [
+            {
+              srcSet: [gamestackTexture7, gamestackTexture7Large],
+              placeholder: gamestackTextur7Placeholder,
+            },
+            {
+              srcSet: [gamestackTexture8, gamestackTexture8Large],
+              placeholder: gamestackTexture8Placeholder,
+            },
+          
+          ],
+        }}
+      />
+      <ProjectSummary
+       id="project-3"
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectTwo.current)}
+        index={3}
         title="Stryde - A Ride Sharing App"
-        description="The carpooling app that connects commuters for convenient and eco-friendly ridesharing"
+        description="The carpooling app that connects commuters for convenient and eco-friendly ridesharing. [Company: Stryde(Freelanced)]"
         buttonText="View project"
         buttonLink="https://www.figma.com/proto/M0qXl0s5wokzHeCiiwgoD7/Stryde?page-id=1%3A2824&type=design&node-id=179-6470&viewport=3569%2C1569%2C0.03&t=HoUldDJcsypdGive-8&scaling=scale-down-width&hotspot-hints=0&hide-ui=1"
          model={{
@@ -122,33 +177,11 @@ export const Home = () => {
               srcSet: [gamestackTexture3, gamestackTexture3Large],
               placeholder: gamestackTexture3Placeholder,
             },
+           
           ],
         }}
       />
-        <ProjectSummary
-        id="project-2"
-        sectionRef={projectTwo}
-        visible={visibleSections.includes(projectTwo.current)}
-        index={2}
-        title="CashKira App"
-        description="CashKira combines bookkeeping and secure payments to simplify finances for MSMEs in SEA, boosting cash flow and business growth."
-        buttonText="View project"
-        buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiUmc1Rm5mMnQ4TlRHVVdQbXFpMkt5bWw0ZVNIczBzckVzSzhpWGV4VzZPb0RJYXRBd3l2bWU3Tjg3ZmluUzFjSHpHbDhMdFpUTzdqMUd2OXJxVmpmcHBMU0xQTFZ0WkJkRHBQcC9aU2JhbFpmWElIc25Hd2ROclZ4NXVmRGV3MHlXRjdHUk9adlljTHlpNVVwNnlqRTQ0a0h2Nk14YlRMeG00NStQZExURWNuakRtOUtCTmpmQW5RMXNrSGhhVWE0TlhBNllEZ0lrYm5aVC9uN29DMGVKc0g5V213eUtENitlbEFEME8xMmsxbzRGcVkwbU5VMGVMWDNHaCtPTUQwK1ZlcHJROVFWRUVMQTdJcXJDam4ybGwwWTJ2RTF1cXo4bC9IN0kzT2M4clVvK1RIZlBjZkl6TWhLKzBHU3NSRUpDZ1drUVR5WFY2SjlYOUJVWWJRPSIsImgiOiJDb250YWN0IE1lIiwicyI6Im0xUDlkVWtzRTdqWHZwUzhxTEFPamc9PSIsImkiOiJwQkEzQTlydzYwVVdvVUs1In0="
-        model={{
-          type: 'phone',
-          alt: 'App login screen',
-          textures: [
-            {
-              srcSet: [gamestackTexture7, gamestackTexture7Large],
-              placeholder: gamestackTextur7Placeholder,
-            },
-            {
-              srcSet: [gamestackTexture8, gamestackTexture8Large],
-              placeholder: gamestackTexture8Placeholder,
-            },
-          ],
-        }}
-      />
+     
             <ProjectSummary
        id="project-3"
         alternate
@@ -156,9 +189,9 @@ export const Home = () => {
         visible={visibleSections.includes(projectFive.current)}
         index={3}
         title="A D2C Super App"
-        description="Your all-in-one solution for seamless shopping, real-time order tracking, and personalized experiences with curated D2C brands."
+        description="[Company: Juspay] - Your all-in-one solution for seamless shopping, real-time order tracking, and personalized experiences with curated D2C brands."
         buttonText="View project"
-        buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoib1N6ZzV2aTVReTdub29IZlZtd3JZUDgvQS9yUEZtdHUxMGRGeUkyVysxUC9GZ3NHL2M1SnhtSHVHaHd4RnkyYXZKYnpyakFRTXBxSmdkbVY4WVNCVy9CSENQTGdTWFVia0JvZldDbDJEMks0TVZsdDMvTzVIdjcvNXRFZ3Urcnc1NjR2cDc2WkJBMENnSFZxVDFYOU1oRis5ajlGQ05sajBqZkd3eUlGWWVDM1hoN1AxSWxobG1JbWUzS3gxdmVxYVBiUjQvZFZnV2Q5RXFVRnpqWnhkU3lRMkJiUDc4TDFWVEs3KytvTmxUTDFnemJqQ3JUdS9ML0ZMOTdhUEZuVVVxTitlYXM3ekFVZEhuS2U5Y2l2L1dPRUZFK1FPYkhtSkxkL3owcUJmRDdnOHJHc0ZRR2ZvVGlEVXozeTlBNlJ2d0IycEI2ZERZNkJ3ci9XYXZBK1pwdz0iLCJoIjoiQ29udGFjdCBtZSIsInMiOiJzZnQ3WG9FMHZQNXdkbGFzNlRwbEV3PT0iLCJpIjoiaG01dmNqVFJyb3pYcnB3aSJ9"
+        buttonLink="https://www.figma.com/proto/PDCB5XTOe37j02XaTZwqg9/D2C-APP?page-id=101%3A16129&type=design&node-id=105-25204&viewport=178%2C1106%2C0.05&t=OpNJnQ3YJMri7QZZ-8&scaling=scale-down-width&hotspot-hints=0&hide-ui=1"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -178,11 +211,11 @@ export const Home = () => {
         id="project-4"
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
-        index={4}
+        index={5}
         title="Desktop Checkout-Redefined"
-        description="Designed to optimized user experience for desktop users while maintaining a seamless and consistent checkout process across multiple devices."
+        description="[Company: Juspay] - Designed to optimized user experience for desktop users while maintaining a seamless and consistent checkout process across multiple devices. "
         buttonText="View project"
-        buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiV2htTG01aUo5U3I0aFZZUHdOSGRVZHVJUUY1L3ZiMnltK2V6enROSmlha283SldVZmh3K0lLZDZ1N2xNM1dQYmZ0RFNRaFdqTEVTK1Z1bXFCSGkvb2pKTk5mSVlrbnNsUitiT3RPYTlwV2hSUVUyZ3QxQjh1QWM4Z1VUWkllV2gvODVlTFBEM3BOSVVteTNvekdSZ1NYSEp6Wmx6UzY3SnhLKzVZTEhodW5LUFE5RlBRN0hsbDkwT1kvSG8yMURkYnFramtDN29IcVcwWSt1MzNUQjZhMThFVXhtWlBPQ1BpZEtuWWwyZ3lNdkJGUzBWZTBRcDNIQzN6bjdUWmNmK0Y3MlZ3SU1FbkhFMWl0QlRqNHlLMTVDT1hDb1g0dVc3UFN2SVpkVTQvaHRQbW04YVpRMk9Ra2svTnpUM0NtOEliM2EvbGVMVU10akNnc2gxRm5TT28yYjIvaUE9IiwiaCI6IkNvbnRhY3QgbWUiLCJzIjoiNklCTithZWNybUtTWFdDR3JoUFFKZz09IiwiaSI6IkJzclpobzVxTElrcmpPSG4ifQ=="
+        buttonLink="https://www.figma.com/proto/i1KvE1qacQPid0ffyqY9AH/Desktop-Checkout?page-id=0%3A1&type=design&node-id=101-69338&viewport=-3426%2C1980%2C0.1&t=GU0Qag2kraK1bxqP-8&scaling=scale-down-width&starting-point-node-id=101%3A439&hotspot-hints=0&hide-ui=1"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
@@ -199,22 +232,22 @@ export const Home = () => {
         alternate
         sectionRef={projectFour}
         visible={visibleSections.includes(projectFour.current)}
-        index={5}
-        title="Flink- A payment App"
-        description="Streamline payments with our intuitive app for easy payment form and link creation."
+        index={6}
+        title="Simpl BillBox"
+        description=" [Company: Simpl] - Revamped the Bill box feature of Simpl app completely from scratch (Case stusy uder progree meanwhile enjoy the prototype). "
         buttonText="Under Progress"
-        buttonLink="https://www.figma.com/proto/QYD3aBcxlPd2IIEuMuZenR/Payment-App?page-id=0%3A1&type=design&node-id=141-7893&viewport=-1380%2C-4689%2C0.47&t=WVhArR4R4vcEOo08-8&scaling=scale-down-width&hotspot-hints=0&hide-ui=1"
+        buttonLink="https://www.figma.com/proto/NR8YLzVBPSmMUEaEmDbqnX/Bill-Box?page-id=519%3A40277&node-id=808-62924&viewport=1298%2C-806%2C0.09&t=LM9Y4M7xY24ezAvz-8&scaling=contain&starting-point-node-id=808%3A62924&show-proto-sidebar=1&content-scaling=fixed&hide-ui=1"
         model={{
           type: 'phone',
           alt: 'App login screen',
           textures: [
             {
-              srcSet: [gamestackTexture6, gamestackTexture6Large],
-              placeholder: gamestackTexture6Placeholder,
+              srcSet: [gamestackTexture9, gamestackTexture9Large],
+              placeholder: gamestackTexture9Placeholder,
             },
             {
-              srcSet: [gamestackTexture5, gamestackTexture5Large],
-              placeholder: gamestackTexture5Placeholder,
+              srcSet: [gamestackTexture10, gamestackTexture10Large],
+              placeholder: gamestackTexture10Placeholder,
             },
           ],
         }}
