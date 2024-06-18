@@ -109,7 +109,7 @@ export const Home = () => {
        <ProjectSummary
         id="project-1"
         sectionRef={projectOne}
-        visible={visibleSections.includes(projectTwo.current)}
+        visible={visibleSections.includes(projectOne.current)}
         index={1}
         title="Simpl Pay later"
         description=" [Company: Simpl] - The convenience of an online khata connected to 26,000+ merchants. Buy anything on the internet with 1 tap. Pay later. "
@@ -134,10 +134,10 @@ export const Home = () => {
         id="project-2"
         alternate
         sectionRef={projectTwo}
-        visible={visibleSections.includes(projectThree.current)}
+        visible={visibleSections.includes(projectTwo.current)}
         index={2}
         title="CashKira App"
-        description="[Company: WhyQ (Freelanced) ] - CashKira combines bookkeeping and secure payments to simplify finances for MSMEs in SEA, boosting cash flow and business growth."
+        description="[Company: WhyQ] - CashKira combines bookkeeping and secure payments to simplify finances for MSMEs in SEA, boosting cash flow and business growth."
         buttonText="View project"
         buttonLink="https://www.figma.com/proto/R1sIoE1A3nhuXI2Z2xRQaj/CashKira?page-id=4%3A6331&type=design&node-id=202-58152&viewport=510%2C834%2C0.1&t=zwvDq1YOdwlWqW7G-8&scaling=scale-down-width&starting-point-node-id=202%3A58152&hotspot-hints=0&hide-ui=1"
         model={{
@@ -159,10 +159,10 @@ export const Home = () => {
       <ProjectSummary
        id="project-3"
         sectionRef={projectThree}
-        visible={visibleSections.includes(projectTwo.current)}
+        visible={visibleSections.includes(projectThree.current)}
         index={3}
         title="Stryde - A Ride Sharing App"
-        description="The carpooling app that connects commuters for convenient and eco-friendly ridesharing. [Company: Stryde(Freelanced)]"
+        description=" [Company: Stryde] - The carpooling app that connects commuters for convenient and eco-friendly ridesharing.]"
         buttonText="View project"
         buttonLink="https://www.figma.com/proto/M0qXl0s5wokzHeCiiwgoD7/Stryde?page-id=1%3A2824&type=design&node-id=179-6470&viewport=3569%2C1569%2C0.03&t=HoUldDJcsypdGive-8&scaling=scale-down-width&hotspot-hints=0&hide-ui=1"
          model={{
@@ -234,7 +234,7 @@ export const Home = () => {
         visible={visibleSections.includes(projectFour.current)}
         index={6}
         title="Simpl BillBox"
-        description=" [Company: Simpl] - Case stusy under progress meanwhile enjoy the prototype. "
+        description=" [Company: Simpl] - Case study under progress meanwhile enjoy the prototype. "
         buttonText="Under Progress"
         buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiT05xQjFWWjdDeENDTXR6RU5sNTQ5bjRvSzNhUGZ6MG8vNEpkY1JzU0o3aWVKSnRwR2ZFRGpEWHVOdlhDbkovVDNkTnRVbFFRSVRuZkQ3elMvdUtKYWNnYTY2N0Iza0s1SzFPeElSdExsSXZmd1U1R1ZReVprbUI3UGtyQ2RkcUpmbVlBbjhzN1ZsTllPSTg5V3g2OTVhcFRwVWxuc2VTeTJpR05mckRiUjlIeUxhUEUzUDNoVGNBV2kzT0NIbUY3dC9SN0o2NW4xZVJyM1RydXRJdk1tcGVJYTZYWkhUSlA5SDhtWVcxNkFYSjRBZDZCcVhUYzYzRUVoZHBGMGRsTjFta0YyQ0JrNThhZnpnbmxUaHViQWpOL3V6Vk5aeEZkQ3FkUVZXaz0iLCJoIjoiUGFzc3dvcmQgTWVudGlvbmVkIGluIG15IFJlc3VtZSIsInMiOiJkOFlWQVp3bUs5RDd0N08vV1BlbFp3PT0iLCJpIjoibkVLbEdyVWZackVsV2kxMiJ9"
         model={{
