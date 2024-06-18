@@ -46,14 +46,15 @@ export const Home = () => {
   const [scrollIndicatorHidden, setScrollIndicatorHidden] = useState(false);
   const intro = useRef(null);
   const details = useRef(null);
-  const projectThree = useRef(null);
-  const projectTwo = useRef(null);
-  const projectFive = useRef(null);
   const projectOne = useRef(null);
+  const projectTwo = useRef(null);
+  const projectThree = useRef(null);
   const projectFour = useRef(null);
+  const projectFive = useRef(null);
+  const projectSix = useRef(null);
   
   useEffect(() => {
-    const sections = [intro, details, projectOne, projectTwo,projectThree, projectFour, projectFive];
+    const sections = [intro, details, projectOne, projectTwo,projectThree, projectFour, projectFive,projectSix];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -183,10 +184,10 @@ export const Home = () => {
       />
      
             <ProjectSummary
-       id="project-3"
+       id="project-4"
         alternate
-        sectionRef={projectFive}
-        visible={visibleSections.includes(projectFive.current)}
+        sectionRef={projectFour}
+        visible={visibleSections.includes(projectFour.current)}
         index={4}
         title="A D2C Super App"
         description="[Company: Juspay] - Your all-in-one solution for seamless shopping, real-time order tracking, and personalized experiences with curated D2C brands."
@@ -208,9 +209,9 @@ export const Home = () => {
         }}
       />
       <ProjectSummary
-        id="project-4"
-        sectionRef={projectOne}
-        visible={visibleSections.includes(projectOne.current)}
+        id="project-5"
+        sectionRef={projectFive}
+        visible={visibleSections.includes(projectFive.current)}
         index={5}
         title="Desktop Checkout-Redefined"
         description="[Company: Juspay] - Designed to optimized user experience for desktop users while maintaining a seamless and consistent checkout process across multiple devices. "
@@ -228,10 +229,10 @@ export const Home = () => {
         }}
       />
        <ProjectSummary
-       id="project-5"
+       id="project-6"
         alternate
-        sectionRef={projectFour}
-        visible={visibleSections.includes(projectFour.current)}
+        sectionRef={projectSix}
+        visible={visibleSections.includes(projectSix.current)}
         index={6}
         title="Simpl BillBox"
         description=" [Company: Simpl] - Case study under progress meanwhile enjoy the prototype. "
