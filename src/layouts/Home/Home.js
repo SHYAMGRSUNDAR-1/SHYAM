@@ -52,10 +52,9 @@ export const Home = () => {
   const projectFour = useRef(null);
   const projectFive = useRef(null);
   const projectSix = useRef(null);
-  const projectSeven = useRef(null);
   
   useEffect(() => {
-    const sections = [intro, details, projectOne, projectTwo,projectThree, projectFour, projectFive,projectSix,projectSeven];
+    const sections = [intro, details, projectOne, projectTwo,projectThree, projectFour, projectFive,projectSix];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -108,13 +107,36 @@ export const Home = () => {
         visible={visibleSections.includes(details.current)}
         id="details"
       />
-    
+       <ProjectSummary
+        id="project-1"
+        sectionRef={projectOne}
+        visible={visibleSections.includes(projectOne.current)}
+        index={1}
+        title="Simpl Pay later"
+        description=" [Company: Simpl] - The convenience of an online khata connected to 26,000+ merchants. Buy anything on the internet with 1 tap. Pay later. "
+        buttonText="View Project"
+        buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiWmNyRFFwMDg0N05NSjBVd3B2cThRbXZvbDAxekhRcXhQTld5TGpmS1FVaHZTa0dBWis2ZXlSZ0VJaWlleGJlQnovRTB5b2JtdTJ2NFRGcWlucnlZa293b1dHUitTTmZ5MmI1cTc1bVpmcmhjWklaalJ4RzhhSUJHaTZQbGNIRHA3REpVRlVMQnlFSEZXcVBUUHQyS09mZ2RhR0FwWU5vYWsyTFNDOHR0S1lxNE1uWStNQUtpdFJ4SVlXa3N1ZktRZXkxVnR4NzYvT0dNbmlmaDduTi9iRnRRUkxrS212UndWTVFraFgvaGliWjJpcW1ZZ2w5d2pXN1JDNFowK2lqcmFYMDQwd2lGZjRhakl3QUV6R2J1YjZCVzJsVkY1aDQ2WDdncVVzT3dab1pyME9FV0pqZ0U5c0E3V01oMFVZOXhPWHl6emFubm01dz0iLCJoIjoiUGFzc3dvcmQgTWVudGlvbmVkIGluIG15IFJlc3VtZSIsInMiOiJNYmMvZjlDYlBMWldvUjVSM1N4ajlnPT0iLCJpIjoia05wS2tKWThKOSt6SkZNUSJ9"
+        model={{
+          type: 'phone',
+          alt: 'App login screen',
+          textures: [
+            {
+              srcSet: [gamestackTexture6, gamestackTexture6Large],
+              placeholder: gamestackTexture6Placeholder,
+            },
+            {
+              srcSet: [gamestackTexture5, gamestackTexture5Large],
+              placeholder: gamestackTexture5Placeholder,
+            },
+          ],
+        }}
+      />
          <ProjectSummary
         id="project-2"
         alternate
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
-        index={1}
+        index={2}
         title="CashKira App"
         description="[Company: WhyQ] - CashKira combines bookkeeping and secure payments to simplify finances for MSMEs in SEA, boosting cash flow and business growth."
         buttonText="View project"
@@ -139,7 +161,7 @@ export const Home = () => {
        id="project-3"
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
-        index={2}
+        index={3}
         title="Stryde - A Ride Sharing App"
         description=" [Company: Stryde] - The carpooling app that connects commuters for convenient and eco-friendly ridesharing.]"
         buttonText="View project"
@@ -166,7 +188,7 @@ export const Home = () => {
         alternate
         sectionRef={projectFour}
         visible={visibleSections.includes(projectFour.current)}
-        index={3}
+        index={4}
         title="A D2C Super App"
         description="[Company: Juspay] - Your all-in-one solution for seamless shopping, real-time order tracking, and personalized experiences with curated D2C brands."
         buttonText="View project"
@@ -190,7 +212,7 @@ export const Home = () => {
         id="project-5"
         sectionRef={projectFive}
         visible={visibleSections.includes(projectFive.current)}
-        index={4}
+        index={5}
         title="Desktop Checkout-Redefined"
         description="[Company: Juspay] - Designed to optimized user experience for desktop users while maintaining a seamless and consistent checkout process across multiple devices. "
         buttonText="View project"
@@ -211,10 +233,10 @@ export const Home = () => {
         alternate
         sectionRef={projectSix}
         visible={visibleSections.includes(projectSix.current)}
-        index={5}
+        index={6}
         title="Simpl BillBox"
         description=" [Company: Simpl] - Case study under progress meanwhile enjoy the prototype. "
-        buttonText="Under NDA"
+        buttonText="Under Progress"
         buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiT05xQjFWWjdDeENDTXR6RU5sNTQ5bjRvSzNhUGZ6MG8vNEpkY1JzU0o3aWVKSnRwR2ZFRGpEWHVOdlhDbkovVDNkTnRVbFFRSVRuZkQ3elMvdUtKYWNnYTY2N0Iza0s1SzFPeElSdExsSXZmd1U1R1ZReVprbUI3UGtyQ2RkcUpmbVlBbjhzN1ZsTllPSTg5V3g2OTVhcFRwVWxuc2VTeTJpR05mckRiUjlIeUxhUEUzUDNoVGNBV2kzT0NIbUY3dC9SN0o2NW4xZVJyM1RydXRJdk1tcGVJYTZYWkhUSlA5SDhtWVcxNkFYSjRBZDZCcVhUYzYzRUVoZHBGMGRsTjFta0YyQ0JrNThhZnpnbmxUaHViQWpOL3V6Vk5aeEZkQ3FkUVZXaz0iLCJoIjoiUGFzc3dvcmQgTWVudGlvbmVkIGluIG15IFJlc3VtZSIsInMiOiJkOFlWQVp3bUs5RDd0N08vV1BlbFp3PT0iLCJpIjoibkVLbEdyVWZackVsV2kxMiJ9"
         model={{
           type: 'phone',
@@ -227,30 +249,6 @@ export const Home = () => {
             {
               srcSet: [gamestackTexture10, gamestackTexture10Large],
               placeholder: gamestackTexture10Placeholder,
-            },
-          ],
-        }}
-      />
-         <ProjectSummary
-        id="project-1"
-        sectionRef={projectSeven}
-        visible={visibleSections.includes(projectSeven.current)}
-        index={6}
-        title="Simpl Pay later"
-        description=" [Company: Simpl] - The convenience of an online khata connected to 26,000+ merchants. Buy anything on the internet with 1 tap. Pay later. "
-        buttonText="Under NDA"
-        buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiWmNyRFFwMDg0N05NSjBVd3B2cThRbXZvbDAxekhRcXhQTld5TGpmS1FVaHZTa0dBWis2ZXlSZ0VJaWlleGJlQnovRTB5b2JtdTJ2NFRGcWlucnlZa293b1dHUitTTmZ5MmI1cTc1bVpmcmhjWklaalJ4RzhhSUJHaTZQbGNIRHA3REpVRlVMQnlFSEZXcVBUUHQyS09mZ2RhR0FwWU5vYWsyTFNDOHR0S1lxNE1uWStNQUtpdFJ4SVlXa3N1ZktRZXkxVnR4NzYvT0dNbmlmaDduTi9iRnRRUkxrS212UndWTVFraFgvaGliWjJpcW1ZZ2w5d2pXN1JDNFowK2lqcmFYMDQwd2lGZjRhakl3QUV6R2J1YjZCVzJsVkY1aDQ2WDdncVVzT3dab1pyME9FV0pqZ0U5c0E3V01oMFVZOXhPWHl6emFubm01dz0iLCJoIjoiUGFzc3dvcmQgTWVudGlvbmVkIGluIG15IFJlc3VtZSIsInMiOiJNYmMvZjlDYlBMWldvUjVSM1N4ajlnPT0iLCJpIjoia05wS2tKWThKOSt6SkZNUSJ9"
-        model={{
-          type: 'phone',
-          alt: 'App login screen',
-          textures: [
-            {
-              srcSet: [gamestackTexture6, gamestackTexture6Large],
-              placeholder: gamestackTexture6Placeholder,
-            },
-            {
-              srcSet: [gamestackTexture5, gamestackTexture5Large],
-              placeholder: gamestackTexture5Placeholder,
             },
           ],
         }}
