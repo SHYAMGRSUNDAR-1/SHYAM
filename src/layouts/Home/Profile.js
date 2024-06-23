@@ -21,7 +21,7 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there✌️" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-    Hello! I'm Shyam Sundar, a passionate Product Designer with 3+ years of experience worked at India's top ventures like  <Link href="https://www.juspay.in">Juspay</Link> and <Link href="https://getsimpl.com/">Simpl</Link> with a focus on creating exceptional digital experiences. My love for design fuels my desire to create experiences that users will truly love at ❤️. <Link href="https://drive.google.com/file/d/16fP2aV53XVI726SlgVUACtXJ2UjxtWeC/view"> My Resume </Link>
+    Hello! I'm Shyam Sundar, a passionate Product Designer with 3+ years of experience worked at India's top ventures like  <Link href="https://www.juspay.in">Juspay</Link> and <Link href="https://getsimpl.com/">Simpl</Link> with a focus on creating exceptional digital experiences. My love for design fuels my desire to create experiences that users will truly love at ❤️. <Link href="https://drive.google.com/file/d/1EL5JFMXv6j2wI82OJsBwFL8-bzRQMptv/view?usp=sharing"> My Resume </Link>
     </Text>
   </Fragment>
 );
