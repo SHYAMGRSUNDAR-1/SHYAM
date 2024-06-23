@@ -46,7 +46,7 @@ export const Home = () => {
   const [scrollIndicatorHidden, setScrollIndicatorHidden] = useState(false);
   const intro = useRef(null);
   const details = useRef(null);
-  const projectOne = useRef(null);
+  // const projectOne = useRef(null);
   const projectTwo = useRef(null);
   const projectThree = useRef(null);
   const projectFour = useRef(null);
@@ -54,7 +54,7 @@ export const Home = () => {
   const projectSix = useRef(null);
   
   useEffect(() => {
-    const sections = [intro, details, projectOne, projectTwo,projectThree, projectFour, projectFive,projectSix];
+    const sections = [intro, details, projectTwo, projectThree, projectFour, projectFive, projectSix];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -107,7 +107,7 @@ export const Home = () => {
         visible={visibleSections.includes(details.current)}
         id="details"
       />
-       <ProjectSummary
+     {/* <ProjectSummary
         id="project-1"
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
@@ -130,17 +130,17 @@ export const Home = () => {
             },
           ],
         }}
-      />
+      />  */}
          <ProjectSummary
         id="project-2"
         alternate
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
-        index={2}
+        index={1}
         title="CashKira App"
         description="[Company: WhyQ] - CashKira combines bookkeeping and secure payments to simplify finances for MSMEs in SEA, boosting cash flow and business growth."
         buttonText="View project"
-        buttonLink="https://www.figma.com/proto/R1sIoE1A3nhuXI2Z2xRQaj/CashKira?page-id=4%3A6331&type=design&node-id=202-58152&viewport=510%2C834%2C0.1&t=zwvDq1YOdwlWqW7G-8&scaling=scale-down-width&starting-point-node-id=202%3A58152&hotspot-hints=0&hide-ui=1"
+        buttonLink="https://www.figma.com/proto/QYD3aBcxlPd2IIEuMuZenR/Cash-kira?page-id=6%3A10&node-id=344-137120&viewport=256%2C3171%2C0.16&t=4m3iW09x0ZghpQtU-8&scaling=scale-down-width&content-scaling=fixed&hotspot-hints=0&hide-ui=1"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -161,7 +161,7 @@ export const Home = () => {
        id="project-3"
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
-        index={3}
+        index={2}
         title="Stryde - A Ride Sharing App"
         description=" [Company: Stryde] - The carpooling app that connects commuters for convenient and eco-friendly ridesharing.]"
         buttonText="View project"
@@ -188,7 +188,7 @@ export const Home = () => {
         alternate
         sectionRef={projectFour}
         visible={visibleSections.includes(projectFour.current)}
-        index={4}
+        index={3}
         title="A D2C Super App"
         description="[Company: Juspay] - Your all-in-one solution for seamless shopping, real-time order tracking, and personalized experiences with curated D2C brands."
         buttonText="View project"
@@ -212,7 +212,7 @@ export const Home = () => {
         id="project-5"
         sectionRef={projectFive}
         visible={visibleSections.includes(projectFive.current)}
-        index={5}
+        index={4}
         title="Desktop Checkout-Redefined"
         description="[Company: Juspay] - Designed to optimized user experience for desktop users while maintaining a seamless and consistent checkout process across multiple devices. "
         buttonText="View project"
@@ -233,11 +233,11 @@ export const Home = () => {
         alternate
         sectionRef={projectSix}
         visible={visibleSections.includes(projectSix.current)}
-        index={6}
+        index={5}
         title="Simpl BillBox"
-        description=" [Company: Simpl] - Case study under progress meanwhile enjoy the prototype. "
-        buttonText="Under Progress"
-        buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiT05xQjFWWjdDeENDTXR6RU5sNTQ5bjRvSzNhUGZ6MG8vNEpkY1JzU0o3aWVKSnRwR2ZFRGpEWHVOdlhDbkovVDNkTnRVbFFRSVRuZkQ3elMvdUtKYWNnYTY2N0Iza0s1SzFPeElSdExsSXZmd1U1R1ZReVprbUI3UGtyQ2RkcUpmbVlBbjhzN1ZsTllPSTg5V3g2OTVhcFRwVWxuc2VTeTJpR05mckRiUjlIeUxhUEUzUDNoVGNBV2kzT0NIbUY3dC9SN0o2NW4xZVJyM1RydXRJdk1tcGVJYTZYWkhUSlA5SDhtWVcxNkFYSjRBZDZCcVhUYzYzRUVoZHBGMGRsTjFta0YyQ0JrNThhZnpnbmxUaHViQWpOL3V6Vk5aeEZkQ3FkUVZXaz0iLCJoIjoiUGFzc3dvcmQgTWVudGlvbmVkIGluIG15IFJlc3VtZSIsInMiOiJkOFlWQVp3bUs5RDd0N08vV1BlbFp3PT0iLCJpIjoibkVLbEdyVWZackVsV2kxMiJ9"
+        description=" [Company: Simpl] - A Strategy to boost shares of bill box feature in the Simpl app. "
+        buttonText="Under NDA"
+        buttonLink="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiRTNOUC81am41SU1PT1I5a1MvM3JPYnFGMmJwZDR3NlIrajlEazk2T3dncU1CKzJxRmFlVHFJV1g1K0Q3RmtVakxqcE8zai9GQXVtUHpSRVZmQ1ZrWnc5VjdGRkFWdGZzdHQ0cUJrVkowVkhxblJ5VlZDSUN6c3hVbE55TUdmWGZPOTFNTFBrREJoQzR5TlRGditobjhXNHpXZy9hV0pVbGQrRnBUU3JyL1dQSnBUWlQ0MW8zRjhSQ0dXQ25zbVhrUTQvT0NIQWQ3MURGb2xZUEhZa0MxL2RsWDJmSmlna2dXMk1FaHN5dTFhaCtzM1Y2R3NYaldKSzI1RHN0elZxdy9EcmNwMEpLM2wvaUk0a2ZkeDBFNUJpTEpEV3JNcEdVVXdkUFpLcytVUjBmWkFEV09taHJDVER5ZTJvSTZPN0Fxelhwd0xGcitlekRpaWhWSXNTQVlnTVdaNmZ3VVBRMWFsem0iLCJoIjoiUGFzc3dvcmQgTWVudGlvbmVkIGluIG15IFJlc3VtZSAoIGlmIG5vdCBwbGVhc2UgY2FsbCBtZSBAOTM0NDQxNDk0NCApIiwicyI6IlNFY3RRc2pxVkhRK3hFTWJNQjhISHc9PSIsImkiOiI4WFVuaHYxT1MvWG5weGdLIn0="
         model={{
           type: 'phone',
           alt: 'App login screen',
