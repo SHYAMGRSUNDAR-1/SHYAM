@@ -1,44 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shyam Sundar's Design Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figma Fullscreen Embed</title>
   <style>
-    /* Make sure the body and html take the full height */
     html, body {
-      height: 100%;
       margin: 0;
       padding: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
     }
-
-    /* The iframe container takes up the full height of the viewport */
-    .figma-embed-container {
-      position: relative;
-      width: 100%;
-      height: 100vh; /* Full height of the viewport */
-    }
-
-    /* The iframe itself fills the container, no borders */
-    .figma-embed-container iframe {
-      position: absolute;
+    .embed-container {
+      position: fixed;
       top: 0;
       left: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+    .embed-container iframe {
       width: 100%;
       height: 100%;
-      border: 0;
+      border: none;
     }
   </style>
 </head>
 <body>
-
-  <!-- Figma embed container -->
-  <div class="figma-embed-container">
+  <div class="embed-container">
     <iframe 
-      src="https://embed.figma.com/proto/LCAjlkc7BisCRqHZf99k80/Shyam-Sundar?content-scaling=fixed&disable-default-keyboard-nav=1&embed-host=iframely&hide-ui=1&hotspot-hints=0&node-id=2043-135&page-id=2043%3A134&scaling=scale-down-width&starting-point-node-id=2043%3A135&theme=light" 
+      src="https://embed.figma.com/proto/LCAjlkc7BisCRqHZf99k80/Shyam-Sundar?content-scaling=fixed&disable-default-keyboard-nav=1&embed-host=iframely&hide-ui=1&hotspot-hints=0&node-id=2043-135&page-id=2043%3A134&scaling=scale-down-width&theme=light" 
       allowfullscreen>
     </iframe>
   </div>
-
 </body>
 </html>
